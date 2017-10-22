@@ -1,0 +1,27 @@
+﻿Requisitos para execução:
+SqlServer2014
+Java
+
+Instruções:
+Alterar arquivo "application.properties", nas linhas 2 e 3
+
+2 spring.datasource.username = SA
+3 spring.datasource.password = 1234
+
+Substituir pelo usuario e senha do banco que será executado o script sql.
+
+Rodar script "ScriptCriaçãoBanco.sql" no banco de dados,
+
+Abrir o terminal de comando prompt na pasta que se encontra o arquivo "inadimplencia.jar"
+executar o seguinte comando :
+
+java -jar inadimplencia.jar --spring.config.location=file:///<<CAMINHO DO ARQUIVO application.properties>>/application.properties
+
+URL de acesso no navegador.
+Aplicação web, url: localhost:8080/inadimplencia/login
+
+URL de acesso a API.
+Serviço RESTFULL, url:localhost:8080/inadimplencia/ws/<CPF>
+CPF para teste: 42016714883
+
+ps:Pasta inadimplencia código fonte.
