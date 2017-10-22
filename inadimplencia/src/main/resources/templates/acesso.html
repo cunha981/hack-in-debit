@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Acesso</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+	
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- Perfect -->
+	<link href="css/app.min.css" rel="stylesheet"/>
+
+  </head>
+
+  <body>
+	<div class="login-wrapper" style="font-family : Lato">
+		<div class="login-widget animation-delay1">	
+			<div class="panel panel-default" style="background-color: #697cda;
+			background-image: linear-gradient(43deg, #697cda 11%, #C850C0 68%);width:375px;height:667px">
+					<form class="form-login pull-center" method="post" style="padding-left:20%;width:80%;margin-top:150px" action="/inadimplencia/autenticar">
+					<div class="" style="text-align:center">
+						<i class=""></i> <H3 style="color:white">Acessar</H3>
+					</div>
+						<div class="form-group">
+							<label style="color:white">CPF</label>
+							<input type="text" name="cpf" placeholder="CPF" class="form-control input-sm bounceIn animation-delay2" />
+						</div>
+						
+						<div class="form-group">
+							<label style="color:white">Senha</label>
+							<input type="password" name="senha" placeholder="Senha" class="form-control input-sm bounceIn animation-delay3"/>
+						</div>
+						
+						<button class="btn btn-primary btn-lg btn-block" style="background-color: rgb(83, 38, 96)" type="submit"><i class="fa fa-sign-in"></i> Entrar</button>
+		
+						<div class="seperator"></div>
+						<div class="form-group" style="text-align:center">
+							<span style="color:white">Ih, esqueceu a sua senha?</span><br/>
+							<a style="color:white" href="cadastro">Não tem login? Se cadastra aqui!</a>
+						</div>
+					</form>
+			</div><!-- /panel -->
+		</div><!-- /login-widget -->
+	</div><!-- /login-wrapper -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <!-- Jquery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+   
+	<!-- Modernizr -->
+	<script src='js/modernizr.min.js'></script>
+   
+    <!-- Pace -->
+	<script src='js/pace.min.js'></script>
+   
+	<!-- Popup Overlay -->
+	<script src='js/jquery.popupoverlay.min.js'></script>
+   
+    <!-- Slimscroll -->
+	<script src='js/jquery.slimscroll.min.js'></script>
+   
+	<!-- Cookie -->
+	<script src='js/jquery.cookie.min.js'></script>
+
+	<!-- Perfect -->
+	<script src="js/app/app.js"></script>
+  </body>
+</html>

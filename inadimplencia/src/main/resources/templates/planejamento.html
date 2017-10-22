@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Planejamento</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+	
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- Perfect -->
+	<link href="css/app.min.css" rel="stylesheet"/>
+
+  </head>
+
+  <body>
+  	<input type="hidden" id="cpf-js" th:value="${cpf}"/>
+	<div class="login-wrapper" style="font-family : Lato">
+		<div class="login-widget animation-delay1">	
+			<div class="panel panel-default" style="width:375px;height:667px">
+				<div class="" style="text-align:center;margin-top:50px">
+					<i class=""></i> <H4 style="">Olá Vitor, esse é sua situação atual !
+					<br/>Janeiro de 2017</H4>
+				</div>
+				<br/>
+				<form class="form-login pull-center" style="padding-left:10px">
+				
+					<div class="form-group">
+					<span>
+					<img height="50px" width="50px" src="img/money (1).png"/>
+					</span>
+						<label style="">Saldo Bancário R$:</label>
+						<label id="SaldoBancario" type="name" class="" >1000,00</label>
+					</div>
+					
+					<div class="form-group">
+						<span>
+					<img height="50px" width="50px" src="img/bills.png"/>
+					</span>
+						<label style="">Dinheiro aplicado R$:</label>
+						<label id="gastoFixo" type="name" class="" >1500,00</label>
+					</div>
+					
+					<div class="form-group alert alert-danger">
+						<span>
+						<img height="50px" width="50px" src="img/wallet.png"/>
+						</span>
+						<label style="">Dívidas encontradas: R$:</label>
+						<label id="dinheiroSobrando" type="name" class="text-right" >500,00</label>
+					</div>
+					
+					<div class="form-group text-center">
+						
+						<h4>Seus maiores gastos</h4>
+					</div>
+					<img height="200" width="340" src="img/1.png"/>
+					<br/>
+					<div class="row" style="background-color:purple;position:absolute;bottom:0;width:100%;height:70px;right: auto;margin-left: 0px;left: 0px;margin-right: 0px;">
+						<span class="col-sm-4 text-center" style="height:100%; ; padding-top: 3px;"  >
+						<a href="planejamento"><img height="50" width="50" src="img/piggy-bank (1).png"/></a>
+						<p style="color: white;">Planejamento</p>
+						</span>
+						<span class="col-sm-4 text-center" style="height:100%; padding-top: 3px;">
+						<a href="acordo"><img height="50" width="50" src="img/negotiation.png"/></a>
+						<p style="color: white;">Socorro!</p>
+						</span>
+						<span class="col-sm-4 text-center" style="height:100%; ; padding-top: 3px;">
+						<img width="50" height="50" src="img/man.png"/>
+						<p style="color: white;">Minha conta</p>
+						</span>
+					</div>
+				</form>
+			</div><!-- /panel -->
+		</div><!-- /login-widget -->
+	</div><!-- /login-wrapper -->
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <!-- Jquery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+   
+	<!-- Modernizr -->
+	<script src='js/modernizr.min.js'></script>
+   
+    <!-- Pace -->
+	<script src='js/pace.min.js'></script>
+   
+	<!-- Popup Overlay -->
+	<script src='js/jquery.popupoverlay.min.js'></script>
+   
+    <!-- Slimscroll -->
+	<script src='js/jquery.slimscroll.min.js'></script>
+   
+	<!-- Cookie -->
+	<script src='js/jquery.cookie.min.js'></script>
+
+	<!-- Perfect -->
+	<script src="js/app/app.js"></script>
+	
+	<script src="js/custom/acesso.js"></script>
+  </body>
+</html>
