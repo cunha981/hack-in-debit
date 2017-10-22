@@ -1,4 +1,12 @@
---CRIAÇÃO DAS TABELAS
+/************************************************************************** 
+* Verity TI
+* --------------------------- 
+* Criado por...:           lovelace
+* Em...........:           21/10/2017
+* Projeto......:           HackInDebt
+* Descrição....:           Script para criação do banco Inadimplencia
+* Tabelas envoldidas:      todas
+**************************************************************************/ 
 
 CREATE DATABASE INADIMPLENCIA
 
