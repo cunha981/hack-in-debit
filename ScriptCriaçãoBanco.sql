@@ -37,6 +37,6 @@ CREATE TABLE Pessoa(
 
 USE INADIMPLENCIA
 
-INSERT INTO Usuario VALUES ('1',1,'igor.almeida@verity.com.br');
+INSERT INTO Usuario VALUES ('42016714883',1,'igor.almeida@verity.com.br');
 
-INSERT INTO Pessoa VALUES ('1',1500,500,null,null);
+INSERT INTO Pessoa VALUES ('42016714883',inadimplente,4000,2100,1000,1500,6000);

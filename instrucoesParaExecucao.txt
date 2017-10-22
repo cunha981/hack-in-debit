@@ -19,6 +19,8 @@ java -jar inadimplencia.jar --spring.config.location=file:///<<CAMINHO DO ARQUIV
 
 URL de acesso no navegador.
 Aplicação web, url: localhost:8080/inadimplencia/login
+cpf: 42016714883
+senha: 1
 
 URL de acesso a API.
 Serviço RESTFULL, url:localhost:8080/inadimplencia/ws/<CPF>
